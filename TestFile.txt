@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is a test file version 3
+=======
+This is a test file to check for conflicts version 3
+>>>>>>> 4f6ae5885743c012e9816e0e1c9582be75149ee3
