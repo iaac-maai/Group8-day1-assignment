@@ -426,3 +426,18 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+
+# Python project (our assignment)
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# data: raw data not committed, clean data and .gitkeep kept
+data/*
+!data/.gitkeep
+!data/housing_europe_clean.csv
+
+# OS files
+Thumbs.db
+.DS_Store
