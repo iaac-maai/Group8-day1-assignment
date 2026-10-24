@@ -445,3 +445,7 @@ Thumbs.db
 # old notebooks (replaced by notebook/data_cleaning_and_EDA.ipynb)
 notebook/Bhavini's Notebook_data_cleaning_and_EDA.ipynb
 notebook/Notebook_Akshat.ipynb
+
+# trained model: published on Hugging Face, not on GitHub
+models/*.joblib
+test_download/
