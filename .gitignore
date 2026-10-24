@@ -433,10 +433,10 @@ FodyWeavers.xsd
 venv/
 .ipynb_checkpoints/
 
-# data: raw data not committed, clean data and .gitkeep kept
+# data: only the final model-ready file and .gitkeep are kept
 data/*
 !data/.gitkeep
-!data/housing_europe_clean.csv
+!data/housing_affordability_model_ready.csv
 
 # OS files
 Thumbs.db
