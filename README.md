@@ -24,6 +24,7 @@ we are 3 students at IAAC 2026-2027, super exciting!
 9. [Model-ready dataset](#9-model-ready-dataset)
 10. [Notes for Day 2](#10-notes-for-day-2)
 11. [Repository structure](#11-repository-structure)
+12. [AI usage disclosure (Day 2)](#12-ai-usage-disclosure-day-2)
 
 ---
 
@@ -307,6 +308,28 @@ Neighbouring years are very similar. A random train/test split (e.g. training on
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## 12. AI usage disclosure (Day 2)
+
+| | |
+|---|---|
+| **Tools** | Claude Code (Anthropic), used as an agent inside VS Code. It edited `notebook/Day2_models.ipynb`, ran the notebook to check it, and committed and pushed to this repository. |
+| **Why** | To apply the class notebook (`Day_2/docs/application_of_supervised_learning.ipynb`) to our own dataset faster, and to check that every step still made sense for a time series. |
+| **Where** | The Day 2 notebook: train/test split, cross-validation, baselines, leakage, pipeline and encoders, model comparison, tuning, test evaluation, interpretation and the classification part. Also this disclosure. |
+| **How** | We pasted the class notebook section by section and asked Claude to adapt each one to our data (e.g. *"now I need to check underfitting and overfitting like said here: …"*). Claude ran every cell and wrote the explanations from the actual outputs. |
+
+**What we changed or corrected along the way**
+- The class notebook uses a **random** train/test split. Following our Day 1 notes, we split **by year** (train 1977–2014, test 2015–2024) and used `TimeSeriesSplit` for cross-validation. Section 1.3 shows that shuffled folds would have looked ≈ 13% better than they really are.
+- The class datasets (house prices, energy) are not allowed for the assignment, so the classification part uses a target built from our own data ("will affordability get worse next year?").
+- Some of Claude's first drafts were wrong and were fixed after checking the outputs and plots. Examples: it first described Japan and Germany as the *most* affordable countries in the target encoding (they are among the least), and it used a 39% share that was really 41%.
+- The first version followed the class notebook very closely and was long. We asked for a simpler version in the style we learned on DataCamp (plain scikit-learn code, short explanations), which is the current notebook.
+
+**Lessons learned**
+- Asking for one section at a time worked better than asking for everything at once: each result could be checked before moving on.
+- Generated text must be checked against the numbers. The code ran without errors even when a sentence about the results was wrong.
+- The agent followed the class notebook closely, so we had to ask whether each step suited our data (time order, index base years) ourselves.
 
 ---
 
