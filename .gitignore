@@ -441,3 +441,7 @@ data/*
 # OS files
 Thumbs.db
 .DS_Store
+
+# old notebooks (replaced by notebook/data_cleaning_and_EDA.ipynb)
+notebook/Bhavini's Notebook_data_cleaning_and_EDA.ipynb
+notebook/Notebook_Akshat.ipynb
