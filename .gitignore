@@ -449,3 +449,6 @@ notebook/Notebook_Akshat.ipynb
 # trained model: published on Hugging Face, not on GitHub
 models/*.joblib
 test_download/
+
+# Day 2 explanation (kept locally, not on GitHub)
+Day2_explained.pdf
