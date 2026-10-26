@@ -7,6 +7,7 @@ we are 3 students at IAAC 2026-2027, super exciting!
 ### Data cleaning, feature engineering and exploratory data analysis
 
 **Group 8:** Akshat Dayal, Bhavini Manot, Bo De Roeck
+**Model on Hugging Face (Day 2):** https://huggingface.co/iaac-maai/day2-group8-affordability
 **Course:** IAAC · Master in AI for Architecture and Business Innovation (MaAI) 2026–27 · AI Methods · Day 1
 **Notebook:** `Notebook_Akshat.ipynb`
 
