@@ -6,7 +6,7 @@ we are 3 students at IAAC 2026-2027, super exciting!
 # Housing Affordability Across 26 Countries (1975–2025)
 ### Data cleaning, feature engineering and exploratory data analysis
 
-**Group 8:** Akshat Dayal, ___, ___
+**Group 8:** Akshat Dayal, Bhavini Manot, Bo De Roeck
 **Course:** IAAC · Master in AI for Architecture and Business Innovation (MaAI) 2026–27 · AI Methods · Day 1
 **Notebook:** `Notebook_Akshat.ipynb`
 

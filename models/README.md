@@ -20,7 +20,7 @@ metrics:
 This model predicts **next year's housing affordability** (house prices relative to household income, as an index) for a country, from the housing and income indicators known **this year**. It is a scikit-learn pipeline (preprocessing + Ridge regression) trained on 26 countries, 1977–2014. It was built as a course assignment for AI Methods I (IAAC MaAI 2026/27).
 
 - **GitHub repository (full pipeline):** https://github.com/iaac-maai/Group8-day1-assignment
-- **Team:** Group 8: Akshat Dayal, Bhavini, Bo
+- **Team:** Group 8: Akshat Dayal, Bhavini Manot, Bo De Roeck
 
 ## Intended use
 
@@ -157,6 +157,6 @@ The full pipeline (data loading, training, evaluation) is in the GitHub reposito
 
 ## Authors and licence
 
-Group 8: Akshat Dayal, Bhavini, Bo. Course assignment for **AI Methods I: Machine Learning for the Built Environment**, IAAC MaAI 2026/27.
+Group 8: Akshat Dayal, Bhavini Manot, Bo De Roeck. Course assignment for **AI Methods I: Machine Learning for the Built Environment**, IAAC MaAI 2026/27.
 
 Model released under the MIT License. The training data is subject to its own licence (see the Kaggle dataset page).
