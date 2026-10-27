@@ -153,7 +153,7 @@ print(10 ** model.predict(example))   # ≈ 101.5
 
 ## Reproducibility
 
-The full pipeline (data loading, training, evaluation) is in the GitHub repository: https://github.com/iaac-maai/Group8-day1-assignment. Run `notebook/Day2_models.ipynb` with the packages in `requirements.txt`.
+The notebook that trained this model is included in this repository: [`notebook/Day2_models.ipynb`](notebook/Day2_models.ipynb) (with its outputs). The full project (data, Day 1 cleaning, figures) is in the GitHub repository: https://github.com/iaac-maai/Group8-day1-assignment. Run `notebook/Day2_models.ipynb` there with the packages in `requirements.txt`.
 
 ## Authors and licence
 
